@@ -1,0 +1,153 @@
+/* Basic border styles applied to paragraph elements */
+p.dotted {
+  border-style: dotted;
+}
+
+p.dashed {
+  border-style: dashed;
+}
+
+p.solid {
+  border-style: solid;
+}
+
+p.double {
+  border-style: double;
+}
+
+/* Special border styles for demonstration purposes */
+p.groove {
+  border-style: groove;
+}
+
+p.ridge {
+  border-style: ridge;
+}
+
+p.inset {
+  border-style: inset;
+}
+
+p.outset {
+  border-style: outset;
+}
+
+/* No border styles */
+p.none {
+  border-style: none;
+}
+
+p.hidden {
+  border-style: hidden;
+}
+
+/* Example of mixed border styles */
+p.mixed {
+  border-style: dashed dotted double groove;
+}
+
+/* Border width examples with various styles */
+p.solid01 {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.solid02 {
+  border-style: solid;
+  border-width: thick;
+}
+
+p.dotted01 {
+  border-style: dotted;
+  border-width: medium;
+}
+
+p.dotted02 {
+  border-style: dotted;
+  border-width: 8px;
+}
+
+p.double01 {
+  border-style: double;
+  border-width: thick;
+}
+
+p.double02 {
+  border-style: double;
+  border-width: medium;
+}
+
+/* Border width with multiple values */
+p.one {
+  border-style: solid;
+  border-width: 5px 20px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: 10px 15px 20px;
+}
+
+p.three {
+  border-style: solid;
+  border-width: 3px 5px 20px;
+}
+
+/* Border color examples */
+p.red {
+  border-style: solid;
+  border-color: red;
+}
+
+p.green {
+  border-style: solid;
+  border-color: green;
+}
+
+p.blue {
+  border-style: dotted;
+  border-color: blue;
+}
+
+/* Multicolor border example with four colors */
+p.multicolor {
+  border-style: solid;
+  border-color: red green blue yellow;
+}
+
+/* Individual borders with various styles */
+p.mixed01 {
+  border-style: dotted solid double groove;
+}
+
+p.mixed02 {
+  border-style: dotted solid double;
+}
+
+p.mixed03 {
+  border-style: dotted solid;
+}
+
+p.mixed04 {
+  border-style: dotted;
+}
+
+/* Border radius examples for rounded corners */
+p.normal {
+  border: 3px solid red;
+}
+
+p.round {
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+p.rounder {
+  border: 3px solid red;
+  border-radius: 8px;
+}
+
+p.roundest {
+  border: 3px solid red;
+  border-radius: 12px;
+}
